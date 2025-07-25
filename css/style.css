@@ -48,15 +48,14 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
-body {
-  /* Remove overflow: hidden; */
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-html {
-  height: auto;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;             /* allow body to grow with content */
   min-height: 100%;
+  overflow-x: hidden;       /* only prevent sideways scroll */
+  overflow-y: auto;         /* allow vertical scroll */
 }
 
 body {

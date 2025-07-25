@@ -48,6 +48,16 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+body {
+  /* Remove overflow: hidden; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html {
+  height: auto;
+  min-height: 100%;
+}
 
 body {
   margin: 0;
